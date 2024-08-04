@@ -58,6 +58,10 @@ form {
   border-left: 3px solid #885df1;
   box-shadow: 0 4px 30px 0 rgba(39, 33, 66, 0.03);
 }
+.poem strong {
+  color: #885df1;
+  font-family: "Lucida Sans Unicode";
+}
 footer {
   text-align: center;
   font-size: 13px;
