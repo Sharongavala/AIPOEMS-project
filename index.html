@@ -12,19 +12,22 @@
     <div class="container">
       <h1>AI French Poems Generator</h1>
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the topic of the French poem..."
-            autofocus
-            required
-            autocomplete="off"
-            class="prompt"
-            id="user-instructions"
-          />
-          <input type="submit" id="" class="submit-button" />
-        </form>
-        <div class="poem" id="poem"></div>
+        <div class="form-wrapper">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the topic of the French poem..."
+              autofocus
+              required
+              autocomplete="off"
+              class="prompt"
+              id="user-instructions"
+            />
+            <input type="submit" id="" class="submit-button" />
+          </form>
+          <div class="hint">ie:Flower,Love or Blue</div>
+        </div>
+        <div class="poem hidden" id="poem"></div>
       </main>
 
       <script src="src/index.js"></script>
